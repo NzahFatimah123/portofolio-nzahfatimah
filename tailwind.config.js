@@ -10,6 +10,8 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        kata: '#21243D',
+        background: '#4A628A',
       },
     },
   },
