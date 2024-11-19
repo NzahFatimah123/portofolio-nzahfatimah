@@ -113,7 +113,7 @@ export default function Navbar() {
               handleScroll("home");
               setMobileMenuOpen(false);
             }}
-            className="text-[16px] text-white hover:text-[#789DBC]"
+            className="text-[16px] text-white hover:text-[#789DBC] px-8"
           >
             Home
           </a>
@@ -126,7 +126,7 @@ export default function Navbar() {
               handleScroll("about");
               setMobileMenuOpen(false);
             }}
-            className="text-[16px] text-white hover:text-[#789DBC]"
+            className="text-[16px] text-white hover:text-[#789DBC] px-8"
           >
             About
           </a>
@@ -139,7 +139,7 @@ export default function Navbar() {
               handleScroll("certificate");
               setMobileMenuOpen(false);
             }}
-            className="text-[16px] text-white hover:text-[#789DBC]"
+            className="text-[16px] text-white hover:text-[#789DBC] px-8"
           >
             Certificate
           </a>
@@ -152,7 +152,7 @@ export default function Navbar() {
               handleScroll("projects");
               setMobileMenuOpen(false);
             }}
-            className="text-[16px] text-white hover:text-[#789DBC]"
+            className="text-[16px] text-white hover:text-[#789DBC] px-8"
           >
             Projects
           </a>
@@ -165,7 +165,7 @@ export default function Navbar() {
               handleScroll("contact");
               setMobileMenuOpen(false);
             }}
-            className="text-[16px] text-white hover:text-[#789DBC]"
+            className="text-[16px] text-white hover:text-[#789DBC] px-8"
           >
             Contact
           </a>
