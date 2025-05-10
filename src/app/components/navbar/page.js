@@ -22,11 +22,11 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-background shadow-lg fixed top-0 z-50 flex justify-between items-center py-6 px-8 lg:px-24">
+    <nav className="w-full h-24 bg-background shadow-lg fixed top-0 z-50 flex justify-between items-center py-6 px-8 lg:px-24">
       <h2>
         <a
           href="/"
-          className="text-[24px] text-white font-bold tracking-wide hover:text-gray-300"
+          className="text-[24px] text-white font-bold tracking-wide hover:text-[#049DD9]"
         >
           nzahfatimah
         </a>
@@ -39,7 +39,7 @@ export default function Navbar() {
               e.preventDefault();
               handleScroll("home");
             }}
-            className="text-[16px] text-white hover:text-[#789DBC]"
+            className="text-[16px] text-white hover:text-[#049DD9]"
           >
             Home
           </a>
@@ -51,7 +51,7 @@ export default function Navbar() {
               e.preventDefault();
               handleScroll("about");
             }}
-            className="text-[16px] text-white hover:text-[#789DBC]"
+            className="text-[16px] text-white hover:text-[#049DD9]"
           >
             About
           </a>
@@ -63,7 +63,7 @@ export default function Navbar() {
               e.preventDefault();
               handleScroll("certificate");
             }}
-            className="text-[16px] text-white hover:text-[#789DBC]"
+            className="text-[16px] text-white hover:text-[#049DD9]"
           >
             Certificate
           </a>
@@ -75,7 +75,7 @@ export default function Navbar() {
               e.preventDefault();
               handleScroll("projects");
             }}
-            className="text-[16px] text-white hover:text-[#789DBC]"
+            className="text-[16px] text-white hover:text-[#049DD9]"
           >
             Projects
           </a>
@@ -87,7 +87,7 @@ export default function Navbar() {
               e.preventDefault();
               handleScroll("contact");
             }}
-            className="text-[16px] text-white hover:text-[#789DBC]"
+            className="text-[16px] text-white hover:text-[#049DD9]"
           >
             Contact
           </a>
@@ -113,7 +113,7 @@ export default function Navbar() {
               handleScroll("home");
               setMobileMenuOpen(false);
             }}
-            className="text-[16px] text-white hover:text-[#789DBC] px-8"
+            className="text-[16px] text-white hover:text-[#049DD9] px-8"
           >
             Home
           </a>
@@ -126,7 +126,7 @@ export default function Navbar() {
               handleScroll("about");
               setMobileMenuOpen(false);
             }}
-            className="text-[16px] text-white hover:text-[#789DBC] px-8"
+            className="text-[16px] text-white hover:text-[#049DD9] px-8"
           >
             About
           </a>
@@ -139,7 +139,7 @@ export default function Navbar() {
               handleScroll("certificate");
               setMobileMenuOpen(false);
             }}
-            className="text-[16px] text-white hover:text-[#789DBC] px-8"
+            className="text-[16px] text-white hover:text-[#049DD9] px-8"
           >
             Certificate
           </a>
@@ -152,7 +152,7 @@ export default function Navbar() {
               handleScroll("projects");
               setMobileMenuOpen(false);
             }}
-            className="text-[16px] text-white hover:text-[#789DBC] px-8"
+            className="text-[16px] text-white hover:text-[#049DD9] px-8"
           >
             Projects
           </a>
@@ -165,7 +165,7 @@ export default function Navbar() {
               handleScroll("contact");
               setMobileMenuOpen(false);
             }}
-            className="text-[16px] text-white hover:text-[#789DBC] px-8"
+            className="text-[16px] text-white hover:text-[#049DD9] px-8"
           >
             Contact
           </a>
